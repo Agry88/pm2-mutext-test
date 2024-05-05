@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "strict": true,
+    "lib": ["esnext"],
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "project": "./tsconfig.json"
+  },
+  "include": ["src/**/*", "app.ts", ".eslintrc.js"]
+}

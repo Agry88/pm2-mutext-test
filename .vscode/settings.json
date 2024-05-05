@@ -1,0 +1,8 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "editor.tabSize": 2,
+  "eslint.workingDirectories": [{ "mode": "auto" }]
+}
