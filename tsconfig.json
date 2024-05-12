@@ -10,7 +10,10 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strictFunctionTypes": true,
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.json",
+    "module": "CommonJS",
+    "skipLibCheck": true
   },
-  "include": ["src/**/*", "app.ts", ".eslintrc.js"]
+  "include": ["src/**/*", "app.ts", ".eslintrc.js"],
+  "exclude": ["node_modules", "dist"]
 }
